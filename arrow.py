@@ -1,3 +1,5 @@
+import RPi.GPIO as GPIO
+
 class Arrow():
     ''' Defines an object for controlling one of the LED arrows on the Motorshield.
     
