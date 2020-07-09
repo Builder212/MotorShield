@@ -55,10 +55,6 @@ class motor:
         GPIO.output(self.pins['f'],GPIO.LOW)
         GPIO.output(self.pins['r'],GPIO.LOW)
 
-    def speed(self):
-        ''' Control Speed of Motor,
-     '''
-
 class LinkedMotors:
     ''' Links 2 or more motors together as a set.
 
