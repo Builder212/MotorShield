@@ -1,5 +1,4 @@
-
-
+import RPi.GPIO as GPIO
 
 class Stepper:
     ''' Defines stepper motor pins on the MotorShield
