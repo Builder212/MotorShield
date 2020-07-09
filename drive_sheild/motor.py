@@ -55,7 +55,7 @@ class motor:
         GPIO.output(self.pins['f'],GPIO.LOW)
         GPIO.output(self.pins['r'],GPIO.LOW)
 
-class LinkedMotors:
+class motor_set:
     ''' Links 2 or more motors together as a set.
 
         This allows a single command to be used to control a linked set of motors

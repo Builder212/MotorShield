@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
+import time
 
-class Stepper:
+class stepper:
     ''' Defines stepper motor pins on the MotorShield
 
         Arguments:
