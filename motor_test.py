@@ -11,5 +11,5 @@ if __name__ == "__main__":
     m4 = motor("motor_4", 1)
     drive = motor_set(m1, m2, m3, m4)
     drive.forward(100)
-    time.sleep(10)
+    sleep(10)
     drive.stop()
