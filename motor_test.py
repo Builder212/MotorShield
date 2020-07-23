@@ -1,5 +1,5 @@
-from drive_shield/arrow_shield import arrow
-from drive_shield/motor_shield import motor, motor_set
+from drive_shield.arrow_shield import arrow
+from drive_shield.motor_shield import motor, motor_set
 import RPi.GPIO as GPIO
 from time import sleep
 
