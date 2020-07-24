@@ -6,7 +6,7 @@ from time import sleep
 if __name__ == "__main__":
     GPIO.setmode(GPIO.BOARD)
     m1 = motor("motor_1", 2)
-    m2 = motor("motor_2", 1)
+    m2 = motor("motor_2", 2)
     m3 = motor("motor_3", 1)
     m4 = motor("motor_4", 1)
     drive = motor_set(m1, m2, m3, m4)
