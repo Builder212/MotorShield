@@ -1,6 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 
+#to be redone at a later date
+'''
 import PiMotor
 
 GPIO.setwarnings(False)
@@ -100,3 +102,4 @@ while True:
 
         else:
             forward()
+'''
