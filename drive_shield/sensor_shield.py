@@ -20,8 +20,6 @@ class sensor:
             self.Triggered = False
 
     def sonicCheck(self):
-        print("SonicCheck has been triggered")
-        time.sleep(0.333)
         GPIO.output(self.config["trigger"], True)
         time.sleep(0.00001)
         GPIO.output(self.config["trigger"], False)

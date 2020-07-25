@@ -5,6 +5,7 @@ from time import sleep
 
 if __name__ == "__main__":
     GPIO.setmode(GPIO.BOARD)
+    GPIO.setwarnings(False)
     m1 = motor("motor_1", 2)
     m2 = motor("motor_2", 2)
     m3 = motor("motor_3", 1)
